@@ -1,6 +1,6 @@
 ---
 name: write-awesome-readme
-description: Generate, rewrite, audit, or improve professional README.md files for software repositories. Use when Codex is asked to create a README for a project, refresh an existing README, make a GitHub/open-source README more polished, add install/quickstart/usage/development sections, or turn repository facts into clear project documentation.
+description: Generate, rewrite, review, audit, or improve professional README.md files for software repositories. Use when the user asks to create a README for a project, rewrite or refresh an existing README, review/audit a README and suggest what can be improved or optimized ("check this README", "what's missing", "how can this README be better"), polish a GitHub/open-source README, add specific sections (install, quickstart, usage, development, license, star history), or turn repository facts into clear project documentation.
 ---
 
 # Write Awesome README
