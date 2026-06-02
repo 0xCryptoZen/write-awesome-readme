@@ -92,7 +92,7 @@ Skip visuals when no asset exists; add a precise TODO only if a visual would mat
 - Explain the outcome before implementation details.
 - Keep code examples minimal but runnable.
 - Put long configuration, API surfaces, and exhaustive option lists in docs when possible.
-- Use `TODO:` for missing facts instead of filling gaps with guesses.
+- For missing facts, prefer asking the user when the answer is a small bounded choice (license, primary language, package name); use `TODO:` only for open-ended gaps (screenshots, benchmark numbers, roadmap).
 - Keep tone professional and direct; match a friendly open-source tone only when the project already uses it.
 
 ## Final Checklist

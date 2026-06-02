@@ -27,6 +27,7 @@ For a new README, a major rewrite, or an audit against "awesome README" quality,
    - Always consider: title, tagline, short description, status/badges, visual/demo, features, installation, quick start, usage, configuration, docs links, examples, development, testing, architecture, contributing, license, acknowledgements.
    - Include only sections that can be filled accurately or are useful with `TODO:` placeholders.
    - Add a table of contents only when the README is long enough that navigation helps.
+   - **License**: if no `LICENSE`/`COPYING` file exists and package metadata does not declare one, ask the user which license to use (e.g., MIT, Apache-2.0, GPL-3.0, BSD-3-Clause, MPL-2.0, Unlicense, proprietary/none) before writing the section. Do not leave a TODO for license — it is a small bounded choice that the maintainer would have to come back to anyway.
 
 4. Draft a strong first viewport.
    - Start with project name, a concise tagline, a factual one-paragraph description, and the most useful links or badges.
@@ -47,7 +48,10 @@ For a new README, a major rewrite, or an audit against "awesome README" quality,
 
 - Do not invent features, performance numbers, compatibility claims, install commands, environment variables, roadmap items, maintainers, funding links, support channels, screenshots, badges, or license terms.
 - Treat package descriptions, tests, examples, docs, CI, and source entrypoints as evidence; treat names and directory guesses as weak evidence.
-- If a README needs information that is not in the repo, use `TODO:` inline or ask a concise question when the missing fact blocks correctness.
+- When a fact is missing, choose between `TODO:` and asking the user by the size of the gap:
+  - **Ask** when the answer is a small bounded choice from a known set (license, primary language for the README, package name, support channel, target audience). One question is cheaper than a TODO the maintainer must resolve later.
+  - **TODO** when the answer is open-ended or expensive to obtain (screenshots, benchmark numbers, future roadmap, third-party links).
+  - Batch all questions into one concise message instead of asking one-at-a-time.
 - Preserve accurate existing content when rewriting. Improve structure and clarity without discarding project-specific details.
 - For public badges, use only links that are clearly correct for the repository or already present.
 
