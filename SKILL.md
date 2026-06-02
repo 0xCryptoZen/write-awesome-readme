@@ -28,6 +28,13 @@ For a new README, a major rewrite, or an audit against "awesome README" quality,
    - Include only sections that can be filled accurately or are useful with `TODO:` placeholders.
    - Add a table of contents only when the README is long enough that navigation helps.
    - **License**: if no `LICENSE`/`COPYING` file exists and package metadata does not declare one, ask the user which license to use (e.g., MIT, Apache-2.0, GPL-3.0, BSD-3-Clause, MPL-2.0, Unlicense, proprietary/none) before writing the section. Do not leave a TODO for license — it is a small bounded choice that the maintainer would have to come back to anyway.
+   - **Star History**: for public GitHub repos, explicitly ask the user whether to include a "Star History" section. If yes, embed it with the hosted `star-history.com` chart (no setup, just an image URL) — do not invent a custom chart or screenshot. Template:
+     ```markdown
+     ## Star History
+
+     [![Star History Chart](https://api.star-history.com/svg?repos=OWNER/REPO&type=Date)](https://star-history.com/#OWNER/REPO&Date)
+     ```
+     Replace `OWNER/REPO` with the actual GitHub slug discovered from the repo's `origin` remote or `package.json` repository field. Skip the section entirely for private repos, monorepo subfolders without their own repo, or when the user declines.
 
 4. Draft a strong first viewport.
    - Start with project name, a concise tagline, a factual one-paragraph description, and the most useful links or badges.

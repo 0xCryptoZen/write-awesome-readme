@@ -85,6 +85,7 @@ Skip visuals when no asset exists; add a precise TODO only if a visual would mat
 - Diagrams work best for services, protocols, infrastructure, compilers, engines, and multi-component systems.
 - Tables work best for install choices, command options, feature comparisons, environment variables, compatibility, and downloads.
 - Badges should be useful, current, and few: CI, coverage, package version, downloads, docs, license, security, or platform support.
+- Star history (optional, public GitHub repos only): if the user opts in, embed the hosted `star-history.com` SVG (`https://api.star-history.com/svg?repos=OWNER/REPO&type=Date`) rather than committing a static screenshot — the hosted chart stays current with no maintenance.
 
 ## Writing Rules
 
