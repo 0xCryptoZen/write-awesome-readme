@@ -70,6 +70,10 @@ When editing the skill:
 
 There are no automated tests configured for this repository. For changes to the skill, review the files manually and try the default prompt against a small sample repository.
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=0xCryptoZen/write-awesome-readme&type=Date)](https://star-history.com/#0xCryptoZen/write-awesome-readme&Date)
+
 ## License
 
-No license file is present in this repository.
+MIT License.
